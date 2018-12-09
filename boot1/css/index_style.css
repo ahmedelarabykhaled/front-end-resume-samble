@@ -1,0 +1,354 @@
+*
+{
+	font-family: Montserrat, sans-serif;
+}
+body
+{
+	/*overflow-x: hidden;*/
+}
+
+/*external classess*/
+.prop
+{
+	background-color: #333 !important;
+	z-index: 1000000;
+
+}
+
+/*end external classess*/
+.navbar
+{
+	transition: 0.5s;
+}
+.prop
+{
+	left: 0px;
+}
+.navbar-nav
+{
+	position: absolute;
+	right: 50px;
+	top: 0px;
+}
+.navbar-nav li
+{
+	padding: 10px;
+}
+nav a
+{
+	font-family: Raleway, san-serif;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.75) !important;
+	padding: 0px;
+}
+.navbar-brand
+{
+	font-weight: 800;
+	font-size: 25px;
+	color: white !important;
+}
+nav .active
+{
+	border-bottom: 2px white solid;
+}
+.block1
+{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/bg1.jpg');
+	background-size: 100% 100%;
+	position: relative;
+}
+.back
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+}
+.inback
+{
+	width: 90%;
+}
+.block1 .para
+{
+	color: white;
+	position: absolute;
+	top: 25%;
+}
+.block1 .para h1
+{
+	font-weight: 900;
+	font-size: 88px;
+}
+.block1 .para p
+{
+	font-weight: 400;
+	font-size: 26px;
+}
+.block1 .navbar-toggler-icon i
+{
+	color: white;
+}
+@media(max-width: 600px)
+{
+	.block1 .para h1
+{
+	font-weight: 700;
+	font-size: 50px;
+}
+	.block1 .para p
+	{
+		font-weight: 300;
+		font-size: 18px;
+	}
+	.block1 .navbar
+	{
+		z-index: 10;
+	}
+	.block1 .navbar-nav
+	{
+		position: static;
+		background-color: #333;
+		padding: 20px;
+		
+	}
+}
+.block1 .fa-angle-down
+{
+	color: white;
+}
+
+.block2
+{
+	width: 100%;
+}
+.block2 .para h2
+{
+	font-weight: 600;
+}
+.block2 .para h6
+{
+	font-family: Raleway, san-serif;
+	font-size: 20px;
+}
+.block2 .para p
+{
+	font-size: 18px;
+	color: rgb(0,0,0,0.5);
+}
+.block2 img
+{
+	box-shadow: -10px 10px 20px;
+}
+.block2 .btn
+{
+	background-color: #333;
+	font-family: Raleway, san-serif;
+}
+
+
+.block3
+{
+	width: 100%;
+	background-color: #f2f2f2;
+}
+.block3 h2
+{
+	font-family: Raleway, san-serif;
+	font-weight: 600;
+}
+.block3 .i-holder
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px #ddd solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+}
+.block3 .i-holder:hover
+{
+	box-shadow: 0px 2px 10px #ccc;
+	position: relative;
+	bottom: 1px;
+}
+.block3 .i-holder i
+{
+	font-size: 30px;
+}
+
+.block4
+{
+	width: 100%;
+	background-image: url('../images/bg2.jpg');
+	background-attachment: fixed;
+	color: white;
+}
+.block4 .container-fluid
+{
+	background-color: rgb(0,0,0,0.5);
+	padding: 80px 0px;
+}
+.block4 .line
+{
+	width: 30px;
+	height: 4px;
+	background-color: #fff;
+}
+.block4 p
+{
+	font-size: 20px;
+}
+.block4 .num
+{
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 2
+}
+
+.block5 .para h2
+{
+	font-weight: 700;
+	font-family: Raleway, san-serif;
+}
+.block5 .para h5
+{	
+	font-size: 20px;
+}
+.block5 .nav
+{
+	justify-content: center;
+}
+.block5 .nav .active
+{
+	background-color: transparent;
+	color: #333;
+	font-weight: 700;
+}
+.block5 .nav .nav-link
+{
+	color: black;
+}
+.block5 .back5
+{
+	position: relative;
+}
+.block5 .upper
+{
+	position: absolute;
+	top: 10px;
+	right: 26px;
+	background-color: rgba(255,255,255,0.8);
+	width: 330px;
+	height: 271px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	/*display: none;*/
+	transition: 0.4s;
+}
+.block5 .upper:hover
+{
+	opacity: 1;
+}
+
+
+.block6 .card
+{
+	border: none;
+}
+.block6 .card a
+{
+	color: black;
+	font-weight: 600;
+}
+.block6 .para h2
+{
+	font-weight: 700;
+	font-family: Raleway, san-serif;
+}
+.block6 .para h5
+{	
+	font-size: 20px;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.block7
+{
+	width: 100%;
+	background-image: url('../../boot1/images/3.jpg');
+	background-size: 100% 100%;
+	color: #fff;
+}
+.block7 .black
+{
+	width: 100%;
+	background-color: rgba(33,21,29,0.5);
+}
+.block7 .black
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block7 .black  .second
+{
+	width: 50%;
+}
+.block7 .black  .second .item img
+{
+	width: 150px;
+	height: 150px;
+}
+.block8 input
+{
+	border: 0px;
+	border-bottom: 2px black solid;
+}
+.block8 .btn 
+{
+	background-color: black;
+	color: white;
+}
+.block8 .form-control:focus
+{
+	border-color: transparent; !important;
+	border-bottom: 2px black solid;
+	box-shadow: none;
+}
+.block8 .para h2
+{
+	font-weight: 600;
+}
+.block8 .para h6
+{
+	font-weight: 600;
+}
+
+.block9
+{
+	width: 100%;
+	background-color: #222;
+	color: white;
+	font-family: Raleway, san-serif;
+
+}
+.block9 .row
+{
+	border-bottom: 1px rgba(100,100,100,0.5) solid;
+}
+.block9 h6
+{
+	font-weight: 700;
+}
